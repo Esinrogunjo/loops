@@ -1,0 +1,114 @@
+*, body, html{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('img/background.jpg');
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 350px;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.upper{
+    width: 100%;
+    height: 30%;
+  
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    margin-top: 20px;
+
+    
+
+}
+.lower{
+    width: 100%;
+    height: 70%;
+  
+   
+}
+
+.box{
+
+
+position: relative;
+}
+.box1{
+
+    
+    position: relative;
+    }
+.box1::after{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: cadetblue;
+    position: absolute;
+    right: -55px;
+    top: 35px;
+}
+
+.header{
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+    color: #3b8acf;
+    margin-left: 5px;
+    margin-bottom: -6px;
+    
+}
+
+.bottom-up{
+    width: 100%;
+    height: 20%;
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flight{
+    margin-left: 5px;
+    color: grey;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.flight.extra{
+    margin-bottom: 20px;
+}
+
+.flight .normal{
+    color: black;
+   
+}
+
+.last-button{
+    width:100% ;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 50%;
+    
+    padding-top: 10px;
+    
+}
+.svg{
+    width: 90%;
+    height: 90%;
+}
