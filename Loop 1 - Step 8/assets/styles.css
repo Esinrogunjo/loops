@@ -1,0 +1,182 @@
+*,html,body{
+    padding:0px;
+    margin:0xp;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: #f9e8e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    box-shadow: 2px 3px 0px 3px;
+    display:flex;
+    
+
+}
+
+.left{
+    width: 35%;
+    height: 100%;
+    background: url('img/background.jpg');
+    background-size: 100% 100%;
+}
+
+.right{
+    width: 65%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 2%;
+    margin-top: 4%;
+  
+    
+    
+}
+
+nav{
+    
+    height: 20%;
+    /* margin: 20px 20px 70px 50px; */
+  
+    display: flex;
+    justify-content: flex-end;
+  
+
+}
+nav a{
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a4a3a5;
+    font-size: 0.9rem;
+}
+nav a:hover{
+    color: black;
+}
+
+.mid{
+    
+    
+    height: 35%;
+    
+    margin-left: 13%;
+      
+}
+
+.mid h1{
+    color: black;
+    font-size: 3rem;
+    line-height: 40px;
+
+    
+
+}
+.mid h1::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: black;
+    top: 40%;
+    left: 70%;
+}
+
+.mid p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+
+
+.left-top{
+    position:relative;
+    top: 10px;
+    left: 10px;
+    
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 5%;
+    
+}
+
+
+
+.arrow{
+    max-width: 30px;
+    max-height: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.back{
+    margin-top: 30px;
+}
+
+.bottom{
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+}
+
+.preview{
+    height: 100px;
+    width: 150px;
+    background: url('img/preview.jpg');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.play{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:rgb(192, 211, 192);
+    cursor: pointer;
+}
+
+.arrow-forward{
+        width: 150px;
+        height: 10px;
+        text-transform: uppercase;
+        margin-top: 3px;
+        cursor: pointer;
+        font-size: 0.8rem;
+        
+}
+.arrow-forward img{
+    position: relative;
+    top: 7px;
+}
+
+.right-bottom{
+    text-align: justify;
+    height: 150px;
+    width: 150px;
+    overflow-y: scroll;
+}
