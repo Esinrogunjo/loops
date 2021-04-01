@@ -1,0 +1,162 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: #4b4b73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 25rem;
+    height: 32rem;
+    
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+   
+    width: 100%;
+   
+    
+}
+
+nav a{
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 5rem;
+  background: #363549;
+  height: 100%;
+  
+}
+
+.line{
+    height: 100%;
+    width: 2px;
+    background: #6e6c8b;
+}
+
+nav a:nth-child(4){
+    height: 120%;
+    flex-grow: 1;
+   width: 6rem;
+   background: #212022;
+}
+
+nav a:nth-child(4) img{
+   fill: white;
+}
+
+a img{
+    width: 40%;
+}
+
+.content{
+
+    width: 85%;
+    margin: 1.5rem 2rem 0px 2rem;
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top{
+    width: 100%;
+    height: 10rem;
+    background: url(./img/food.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    --webkit-filter: grayscale(20%) ;
+    filter: grayscale(20%);
+   
+}
+
+.food-area{
+    
+    display: flex;
+   
+  
+    min-width:3rem ;
+    min-height: 2rem;
+    color: #feffff;
+    margin-left: 1.3rem;
+    flex-direction: column;
+    margin-bottom: 10px;
+  
+}
+
+.location{
+    display: flex;
+    max-height: 2rem;
+    align-items: center;
+    color: #feffff;
+   
+}
+
+h2{
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: #feffff;
+  
+    
+
+}
+
+
+.down{
+    width: 100%;
+    
+    min-height: 10rem;
+    background: white;
+
+}
+
+.row{
+    width: 100%;
+    border-bottom: 2px solid #e7e2e7;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 4rem;
+  
+        
+}
+
+.text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-weight: bold;
+    color: #a49f9c;
+}
+
+.number{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    font-weight: bold;
+    justify-content: flex-end;  
+    color: #a49f9c;
+}
+.number:hover{
+    color: black;
+}

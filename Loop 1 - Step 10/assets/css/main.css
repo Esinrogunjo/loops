@@ -1,0 +1,284 @@
+
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+*, *::after,*::before{
+    
+    box-sizing: border-box;
+}
+
+
+body{
+    background: white;
+    /* display: flex;
+    flex-direction: column; */
+    
+   min-height: 700px;
+   width: 100%;
+   background-image: url(/img/preview.jpg);
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-wrapper{
+    width:100%;
+    height: 15vh;
+    max-height: 20vh;
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.header{
+    width: 65%;
+    background: white;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 90%;
+   
+    justify-content: flex-end;
+    color: black;
+}
+
+.menu nav{
+  
+   flex-grow: 1;
+   
+    color: black;
+    height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    
+}
+.menu nav a{
+    margin-left: 7%;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+
+.menu nav a:hover{
+    border-bottom: solid 2px rgb(163, 150, 150);
+    margin-bottom: -5px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+    width: 3%;
+    cursor: progress;
+    
+}
+
+input.search{
+    border:none;
+    border-bottom: solid 2px rgb(163, 150, 150);
+    outline: none;
+}
+
+.wrapper{
+   
+    margin-top: 0px;
+    min-height: 370px;
+    border-bottom: 2px solid #f0eff0;
+    
+}
+
+.section1{
+    max-width: 30%;
+   
+    margin-left: 17%;
+    min-height: 20px;
+    margin-top: 100px;
+  
+}
+
+.img-right{
+    position: absolute;
+    
+    float: right;
+  
+    padding: 0px;
+   
+    margin-bottom: 100px;
+    right: -250px;
+    top: 80px;
+
+
+}
+ .img-right img{
+    max-width: 500px;
+} 
+
+.text-head{
+    font-size: 2.3rem;
+    font-weight: bolder;
+ 
+   
+}
+
+.text-content1{
+    margin-top: 50px;
+    
+    border-left: 2px solid black;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+.section1-button{
+    color: white;
+    background: #d75048;
+    height: 42px;
+    border: 0px;
+    min-width: 100px;
+}
+
+.wrapper2{
+    display: flex;
+    padding: 30px 16% 30px 16%;
+    
+   
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.col-head{
+    margin-bottom: 30px;
+    
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.dots{
+    margin-top: 10px;
+    display: flex;
+}
+
+.dot{
+    height: 5px;
+    width: 5px;
+    background: #c0bfc0;
+    margin: 2px;
+
+}
+
+.line{
+  
+}
+
+.line-text{
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 50px;
+    color: #cd6b70;
+    font-weight: bolder;
+    position: relative;
+    top: 0px;
+}
+
+.line-text:hover{
+  
+    animation: move 3s ease infinite;
+}
+
+.line-text::before{
+    content: "";
+    width: 40px;
+    height: 3px;
+    background: #cd6b70;
+    position: absolute;
+    top: 6px;
+    left: -48px;
+
+}
+
+.line-text::before:hover{
+   
+    animation: move 3s ease infinite;
+}
+
+@keyframes move{
+    50% {
+        transform: translate(100px);
+     }
+}
+
+.wrapper3{
+    display: flex;
+    padding: 30px 16% 30px 16%;
+    border: 1px solid black;
+    margin-top: 30px;
+
+}
+
+.wrapper3-left{
+    width: 55%;
+   
+    padding-top: 20%;
+    padding-right: 10%;
+
+}
+
+.wrapper3-right{
+    width: 45%;
+   
+}
+
+.wrapper3-right img{
+    max-width: 100%;
+}
+
+.footer{
+  
+  
+    height: 80vh;
+   
+    border: 3px solid brown;
+    background:url(/img/runners.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0 15vw;
+    
+}
+
+
+.imagely {
+    background: url(./img/runners.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: flex-end;
+    padding: 0 15vw;
+  }
+

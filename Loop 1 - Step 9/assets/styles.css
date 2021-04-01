@@ -1,0 +1,218 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+*, *::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background: #f5c66b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: white;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 60%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.left-side{
+     
+        background: #f1eff1;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+}
+
+.left-side:hover{
+    overflow-y: scroll;
+}
+
+.right-side{
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-shrink: 0;
+    padding: 5% 5% 5% 5%;
+    
+}
+.right-side:hover{
+    overflow-y: scroll;
+}
+
+.right-top{
+
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+   border-bottom: 1px solid #ccc;
+    
+
+}
+
+.right-top span:first-child{
+    width: 70%;
+    position: relative;
+    top: 2px;
+    font-weight: bold;
+  
+}
+
+.right-top span:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+  
+
+}
+
+/* .right-top::before{
+    content: "";
+    position: absolute;
+    width: 425px;
+    top:170px;
+    background: #ccc;
+    height: 1px;
+} */
+
+.row{
+    display: flex;
+    
+    margin-top: 40px;
+}
+
+.row .plus-sign, .row .negative-sign{
+    width: 30px;
+
+    height: 30px;
+    border-radius: 50px;
+    border:1px solid #ccc;
+    margin-right: 10px;
+       
+}
+
+.row .plus-sign img, .row .negative-sign img{
+    position: relative;
+    top: 2.5px;
+    left:2px;
+       
+}
+
+
+.row .comment{
+    width: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+}
+
+.comments{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.side-note{
+    color: #dfd9df;
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.row .money{
+    width: 18%;
+    position: relative;
+    font-weight: bolder;
+    font-size: 1.3rem;
+  
+}
+
+.green{
+    color: #80c758;
+}
+
+.blue{
+    color: #8590be;
+}
+
+
+
+
+.left-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+
+
+
+.text{
+    color: black;
+    font-size: 1.5rem;
+    width: 90%;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.plus{
+    width: 10%;
+    color: black;
+    cursor: pointer;
+
+}
+
+.card{
+    width: 100%;
+    height: 250px;
+    border-radius: 7px;
+    background: white;
+    border: 2px solid #dedcde;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    cursor: progress;
+}
+.card img{
+    height: 70px;
+    margin-left: -60%;
+}
+
+.card:hover{
+    border: 2px solid black;
+}
+
+.left-side::-webkit-scrollbar{
+    width: 20px;
+}
+
+
+
+.left-side::-webkit-scrollbar-track{
+    background: green;
+    outline: 1px salmon solid;
+ 
+}
+
+
+

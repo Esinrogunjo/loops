@@ -1,0 +1,157 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body{
+    background: #9c7ae7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* img{
+    max-width: 100%;
+    cursor: pointer;
+} */
+
+.container{
+    width: 18rem;
+    min-height: 20rem;
+    background: #ac71d4;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 2px #7e66c1;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-line{
+    height: 3.5rem;
+   
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.first-line::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 3.5rem;
+    background: white;
+}
+.photo-container{
+    display: flex;
+    max-height: 4.5rem;
+    align-items: center;
+    margin-right: 1rem;
+}
+.circle-image{
+
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    margin-left: 1rem;
+
+}
+
+.p-text{
+    margin-left: 1rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+
+.spacer{
+    flex-grow: 1;
+  
+}
+
+.center{
+  margin-top: 2rem;
+    background: #564875;
+    min-height: 6rem;
+}
+
+
+.second-line{
+    height: 2.5rem;
+   
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.second-line::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 2.5rem;
+    background: white;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-left: 1.9rem;
+    margin-right: 1rem;
+}
+
+.footer{
+    
+    background: #ac71d4;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.third-line{
+    height: 2.5rem;
+   
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.third-line::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 2.5rem;
+    background: white;
+}
+
+.folder{
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    left: 1rem;
+    bottom:3rem;
+   
+    
+  
+}
+
+.folder img{
+   
+    width: 50%;
+}
+
+.last-one{
+    display: flex;
+    align-items: center;
+}
+
+.text2{
+    margin-left: 3rem;
+}
