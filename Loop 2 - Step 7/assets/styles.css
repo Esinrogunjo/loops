@@ -1,0 +1,142 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background: #c2f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: 1.3fr 1.5fr;
+    width: 60vw;
+    height: 80vh;
+}
+
+.left{
+    background: url(./img/background.jpg) no-repeat center;
+    background-size:100% 100%;
+    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
+.right{
+    width: 100%;
+    height: 100%;
+    padding: 2rem 1rem;
+    background:white;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-notch{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+#title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#year{
+   
+   
+    color:  #bcbbbc;
+    width:100%;
+   
+    height: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.myspan{
+    font-size: 1rem;
+    width: 1.5rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+.active{
+  margin-left: 0px;
+  color: black;
+}
+
+
+.row{
+    width: 100%;
+    height: 50px;
+    display: flex;
+   
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.row img{
+    width: 45px;
+    height: 45px;
+}
+
+.text{
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.twenty{
+    font-size: 2rem;
+}
+
+.year{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.5rem;
+    margin-left:0.5rem;
+    font-weight: bold;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+
+/* the left side styling */
+
+.press{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  
+}
+
+.btn{
+    display: flex;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background:#5a9886;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}

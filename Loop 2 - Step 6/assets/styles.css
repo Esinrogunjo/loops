@@ -1,0 +1,144 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+*,*::after,*::before{
+  box-sizing: border-box;  
+}
+
+body{
+    background: #78accd;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+   
+
+}
+
+.container{
+    width: 350px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.top-notch{
+    display: flex;
+    justify-content: space-between;
+    color: #d0c8c3;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-top: 1rem;
+    
+    
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.mid-level{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  
+    margin-top: 1rem;
+   
+   
+}
+
+.day{
+ 
+ text-decoration: none;
+ text-transform: uppercase;
+ color: #808c99;
+ font-size: 0.8rem;
+ display: flex;
+ align-items: center;
+}
+
+.ash{
+    text-align: center;
+    color: #d1dae4;
+}
+
+.black{
+
+    text-align: center;
+
+}
+
+.circle{
+    border-radius: 50%;
+    border:1px solid black;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.bg-red{
+    background: #de6e46;
+}
+.border-red{
+    border-color: #de6e46;
+    color: black;
+}
+
+.bg-purple{
+    background: #b15b89;
+    color: black;
+}
+
+.border-purple{
+    border-color: #b15b89;
+    color: black;
+}
+
+.dot{
+
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   top: -15px;
+}
+
+.bottom{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin-top: 1rem;
+}
+
+.bot-left{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.bot-left2{
+    margin-left: 3rem;
+}
